@@ -1,0 +1,87 @@
+<link rel="stylesheet" type="text/css" href="css/fx.css"/>
+<section ng-controller="fxkq">
+	<div class="new-tj">
+		<div class="swiper-container tj">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" ng-repeat="i in tj"><img src="img/fx/{{i}}" style="height: 78px" /></div>
+				
+				<!--<div class="swiper-slide"><img src="img/fx/fx-1.png" alt="" /></div>
+				<div class="swiper-slide"><img src="img/fx/fx-2.png" alt="" /></div>
+				<div class="swiper-slide"><img src="img/fx/fx-3.png" alt="" /></div>
+				<div class="swiper-slide"><img src="img/fx/fx-1.png" alt="" /></div>-->
+			</div>
+		</div>
+	</div>
+			
+			<div class="active">
+				<div class="swiper-container ms">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" ng-repeat="i in ms">
+							<aside>
+								<p><span></span>{{i.spt}}</p>
+								<p>{{i.pt}}</p>
+								<p>{{i.pm}}</p>
+								<p>{{i.pb}}</p>			
+									
+							</aside>
+							<article>
+								<img ng-src="img/fx/{{i.img}}"/>
+								<button>{{i.btn}}</button>
+							</article>
+						</div>
+						<!--<div class="swiper-slide">
+							<aside>
+								<p><span></span>每日秒杀</p>
+								<p>活动火爆进行中...</p>
+								<p>15元低价</p>
+								<p>《二人转》专场&nbsp;长春站</p>			
+									
+							</aside>
+							<article>
+								<img src="img/fx/fx-4.png"/>
+								<button>马上去抢</button>
+							</article>
+						</div>
+						<div class="swiper-slide">
+							<aside>
+								<p><span></span>每日秒杀</p>
+								<p>活动火爆进行中...</p>
+								<p>15元低价</p>
+								<p>《二人转》专场&nbsp;长春站</p>			
+									
+							</aside>
+							<article>
+								<img src="img/fx/fx-5.png"/>
+								<button>马上去抢</button>
+							</article>
+						</div>
+						<div class="swiper-slide">
+							<aside>
+								<p><span></span>每日秒杀</p>
+								<p>活动火爆进行中...</p>
+								<p>15元低价</p>
+								<p>《二人转》专场&nbsp;长春站</p>			
+									
+							</aside>
+							<article>
+								<img src="img/fx/fx-6.png"/>
+								<button>马上去抢</button>
+							</article>
+						</div>-->
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			
+			<div class="title">
+				<h1>麦浪社区</h1>
+			</div>
+		<div class="sheq" ng-repeat="i in squ">	
+			<p><img src="img/fx/{{i.img}}" alt="" /></p>
+			<div>
+				<h3>{{i.ht}}</h3>
+				<span>{{i.hs}}</span>
+			</div>
+		</div>
+		
+</section>

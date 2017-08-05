@@ -1,0 +1,70 @@
+
+  .center {
+  width: 100%;
+  flex-grow: 1;
+  overflow: auto; 
+  	}
+  .center .swiper1 {
+    width: 100%; }
+    .center .swiper1 .swiper-wrapper {
+      width: 100%; 
+       display: flex; }
+      
+.swiper1 .swiper-slide{
+	width: 20%;
+	height: 3rem;
+	line-height: 3rem;
+}
+.swiper1 .swiper-slide:nth-of-type(1){
+background: red;
+
+}
+.swiper1 .swiper-slide:nth-of-type(1) button{
+background: red;
+padding: 1rem;
+}
+  .center button {
+  	outline: none;
+    border: none;
+    
+    background:#fff;padding: 1rem;
+     }
+
+.active button {
+  border: none;
+ 
+  background: red;
+  padding: 1rem;
+ }
+   .con{
+      	width: 100%;
+      	display: block;
+      	height: auto;
+      
+      }
+      .con li{
+      	width: 100%;
+      	display: flex;
+      	justify-content: space-around;
+      	flex-wrap: wrap;
+      	margin: 3rem 0;
+      }
+      .con a{
+      	margin-top: 1rem;
+      }
+      .con>li>a>span{
+      	display: block;
+      	line-height: 2rem;
+      }
+      .con img{
+      	width: 28%;
+      	height: 30%;
+      }
+			.con p span:nth-of-type(1){
+				font-size: 2rem;
+			}
+			.con p span:nth-of-type(2){
+				color: red;
+				display: block;
+				line-height: 2rem;
+			}

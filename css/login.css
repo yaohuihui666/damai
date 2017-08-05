@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ /* font-size: 62.5%; */}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%; }
+
+header {
+  width: 100%;
+  min-height: 50px;
+  z-index: 3;
+  background: #E41B46;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem; }
+  header div {
+    color: #fff;
+    font-size: 2rem; }
+
+section {
+  width: 100%;
+  flex-grow: 1; }
+
+.false {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+  .false div {
+    margin-top: 40%;
+    margin-left: 5%;
+    width: 90%;
+    height: 12rem;
+    line-height: 12rem;
+    padding: 0rem 2rem;
+    font-size: 2.5rem;
+    color: #fff;
+    border-radius: 10px;
+    background: #555555;
+    display: flex;
+    justify-content: space-between; }
+    .false div p {
+      margin-top: -4rem;
+      color: red !important;
+      font-size: 3rem; }
+
+.head {
+  margin: 1rem 0;
+  width: 100%;
+  text-align: center;
+  background: #E41B46;
+  padding: 3rem 0; }
+  .head img {
+    width: 30%;
+    border-radius: 10rem; }
+
+.mess {
+  width: 100%;
+  padding: 1rem; }
+  .mess ul {
+    padding: 1rem; }
+    .mess ul li {
+      color: #e4e4e4;
+      padding: 1rem 0;
+      margin: 0.5rem;
+      font-size: 2.5rem;
+      border-bottom: 1px solid #E6E6E6; }
+      .mess ul li input {
+        border: none; }
+  .mess form {
+    background: #E41B46;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px; }
+    .mess form input {
+      width: 100%;
+      height: 100%;
+      background: #E41B46;
+      color: #fff;
+      font-size: 2rem;
+      border: none; }
+  .mess .foot {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: #e4e4e4; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  z-index: 111;
+  text-align: center; }
+  .footer h3 {
+    width: 100%;
+    margin: 1rem;
+    color: #101010;
+    font-size: 2rem; }
+  .footer>ul {
+    display: flex;
+    justify-content: center; }
+    .footer>ul li {
+      margin: 1rem;
+      text-align: center; }
+     .footer>ul li a {
+        color: #DDDDDD;
+        font-size: 2rem; }
+
+/*# sourceMappingURL=login.css.map */

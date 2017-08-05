@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="css/index.css" />
+
+<section ng-controller="onekq">
+	<div id="wrapper">
+		<div id="scroller">
+			<div id="pullDown">
+				<span class="pullDownLabel">下拉刷新</span>
+			</div>
+			<!--轮播-->
+			<div class="swiper-container lb">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" ng-repeat="val in lb"><img ng-src="img/{{val.img}}"/></div>
+					<!--<div class="swiper-slide"><img src="img/index_banner.png"/></div>
+					<div class="swiper-slide"><img src="img/index_banner02.png"/></div>
+					<div class="swiper-slide"><img src="img/index_banner03.png"/></div>-->
+				</div>
+				<!--小圆点-->
+				<div class="swiper-pagination"></div>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li ng-repeat="i in btn"><img ng-src="img/index/{{i.img}}"/><p>{{i.txt}}</p></li>
+					<!--<li><img src="img/index/icon_03.png"/><p>签到</p></li>
+					<li><img src="img/index/icon_03.png"/><p>签到</p></li>
+					<li><img src="img/index/icon_03.png"/><p>签到</p></li>-->
+				</ul>
+				
+			</nav>
+	<!--大麦头条-->
+			<div class="top-tiao">
+				<div class="top-left">
+					<img src="img/tt.png"/>
+				</div>
+				<div class="top-right">
+					<div class="swiper-container scoll">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide" ng-repeat="i in newday">{{i.title}}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+	<!--最新推荐-->
+			<div class="new-tj">
+				<p style="text-align: center; padding: 0.5rem 0;font-size: 2rem;"><span>最新推荐</span></p>
+				<div class="swiper-container tj">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" ng-repeat="i in tj">
+							<img ng-src="img/index/{{i.img}}"/><p>{{i.txtp}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="love">
+				<h4>猜你喜欢</h4>
+				<ul id="listData">
+		
+				</ul>
+				<div id="pullup">
+					<span class="pullupLabel">上拉加载</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

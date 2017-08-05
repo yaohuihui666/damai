@@ -1,0 +1,30 @@
+{
+	"lb":[
+	       {
+	    	   "img":"index_banner.png"
+	       },{
+	    	   "img":"index_banner02.png"
+	       },{
+	    	   "img":"index_banner03.png"
+	       }
+	       ],
+	     "btn":[
+	   	       {"img":"icon_03.png","txt":"签到"},
+	   	       {"img":"icon_05.png","txt":"签到"},
+	   	       {"img":"icon_07.png","txt":"签到"},
+	   	       {"img":"icon_09.png","txt":"签到"},
+	   	       {"img":"icon_15.png","txt":"签到"},
+	   	       {"img":"icon_16.png","txt":"签到"},
+	   	       {"img":"icon_17.png","txt":"签到"},
+	   	       {"img":"icon_18.png","txt":"签到"}],
+	   	 "newday":[
+	   	        {"title":"中国银行惊喜连连，轻松优惠20元！"},
+	   	        {"title":"1中国银行惊喜连连，轻松优惠20元1！"},
+	   	        {"title":"22银行惊喜连连，轻松优惠20元！"},
+	   	        {"title":"11中国银行惊喜连连，轻松优惠20元！"}],
+	   	  "tj":[
+	   	        {"img":"tj01.png","txtp":"新濠影汇娱乐...","sptxt":"有效期至..."},
+	   	        {"img":"tj02.png","txtp":"新濠影汇娱乐...","sptxt":"有效期至..."},
+	   	        {"img":"tj03.png","txtp":"新濠影汇娱乐...","sptxt":"有效期至..."},
+	   	        {"img":"tj04.png","txtp":"新濠影汇娱乐...","sptxt":"有效期至..."}]
+}

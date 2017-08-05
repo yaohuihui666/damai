@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		-->
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/zc.css"/>
+		<link rel="stylesheet" type="text/css" href="css/loaders.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/loading.css"/>
+	    <script src="js/jquery.min.js" type="text/javascript"></script>
+	    <script src="sourse/layer/mobile/layer.js"></script>
+	    
+		</head>
+		    <!--loading页开始-->
+	
+	<body>
+		<div class="loading">
+		    <div class="loader">
+		        <div class="loader-inner pacman">
+		          <div></div>
+		          <div></div>
+		          <div></div>
+		          <div></div>
+		          <div></div>
+		        </div>
+		    </div>
+		</div>
+		<header class="back">
+			<div><span class="fa fa-angle-left" ></span></div>
+			<div>注册</div>
+			<div></div>
+		</header>
+	<section>
+		<ul>
+			<li>
+				账号 /手机号
+			</li>
+			<li>
+				<div class="yzm" style="width: 100px;padding:1rem;background: lavender;color: red;">1212</div>
+				验证码    点击换一张
+			</li>
+			
+		</ul>
+		<div class="xia"><p>下一步</p></div>
+	</section>
+		
+		
+	</body>
+	
+	<script type="text/javascript">
+		 $(window).load(function(){
+	            $(".loading").addClass("loader-chanage")
+	            $(".loading").fadeOut(500)
+	      })
+		$('.back').click(function(){
+			window.history.go(-1)
+			//window.location.href="index.html";
+		})
+		
+			var yzm=document.getElementsByClassName("yzm")[0]
+			function fun(max,min){
+				return Math.floor(Math.random()*(max-min+1)+min)
+			}
+			yzm.addEventListener("touchend",function(){
+				yzm.innerHTML=fun(9999,1000)
+			})
+		
+	</script>
+
+</html>

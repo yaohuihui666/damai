@@ -1,0 +1,144 @@
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/yc.css"/>
+<section  class="center" ng-controller="yckq">
+	<!--<div id="wrapper">
+		<div id="scroller">
+			<div id="pullDown">
+				<span class="pullDownLabel">下拉刷新</span>
+			</div>-->
+	<!--tab切换-->
+	
+	<div class="center">
+		<div class="swiper-container swiper1">
+			<div class="swiper-wrapper"><div class="swiper-slide" ng-repeat="i in tou"><button>{{i}}</button></div></div>
+		</div>
+			
+			
+			<div class="swiper-container swiper2">
+					<div class="swiper-wrapper">
+				
+						<div class="swiper-slide">
+							<ul class="con" ng-repeat="i in content">
+								<li>
+									<img ng-src="img/{{i.img}}" />
+									<a>
+										<p>
+											<span>{{i.spt}}</span>
+											<span>{{i.st}}</span>
+										</p>
+										<span>{{i.time}}</span>
+										<span>{{i.area}}</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="con" ng-repeat="i in content">
+								<li>
+									<img ng-src="img/{{i.img}}" />
+									<a>
+										<p>
+											<span>{{i.spt}}</span>
+											<span>{{i.st}}</span>
+										</p>
+										<span>{{i.time}}</span>
+										<span>{{i.area}}</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="con" ng-repeat="i in content">
+								<li>
+									<img ng-src="img/{{i.img}}" />
+									<a>
+										<p>
+											<span>{{i.spt}}</span>
+											<span>{{i.st}}</span>
+										</p>
+										<span>{{i.time}}</span>
+										<span>{{i.area}}</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="con" ng-repeat="i in content">
+								<li>
+									<img ng-src="img/{{i.img}}" />
+									<a>
+										<p>
+											<span>{{i.spt}}</span>
+											<span>{{i.st}}</span>
+										</p>
+										<span>{{i.time}}</span>
+										<span>{{i.area}}</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="con" ng-repeat="i in content">
+								<li>
+									<img ng-src="img/{{i.img}}" />
+									<a>
+										<p>
+											<span>{{i.spt}}</span>
+											<span>{{i.st}}</span>
+										</p>
+										<span>{{i.time}}</span>
+										<span>{{i.area}}</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="con" ng-repeat="i in content">
+								<li>
+									<img ng-src="img/{{i.img}}" />
+									<a>
+										<p>
+											<span>{{i.spt}}</span>
+											<span>{{i.st}}</span>
+										</p>
+										<span>{{i.time}}</span>
+										<span>{{i.area}}</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="con" ng-repeat="i in content">
+								<li>
+									<img ng-src="img/{{i.img}}" />
+									<a>
+										<p>
+											<span>{{i.spt}}</span>
+											<span>{{i.st}}</span>
+										</p>
+										<span>{{i.time}}</span>
+										<span>{{i.area}}</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="swiper-pagination"></div>
+			</div>
+		
+		</div>
+		
+			<!--<div class="love">
+				<ul id="listData">
+		
+				</ul>
+				<div id="pullup">
+					<span class="pullupLabel">上拉加载</span>
+				</div>
+			</div>
+		</div>
+	</div>			-->
+		
+</section>
